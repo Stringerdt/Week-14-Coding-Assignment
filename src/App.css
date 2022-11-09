@@ -32,7 +32,57 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #4c5059;
+  color: white;
+}
+
+.row {
+  height: 600px;
+}
+
+.card {
+  background-color: black;
+}
+
+.card-img-top {
+  height: 60%;
+}
+
+.card-title {
+  padding: 10px;
+  height: 30%;
+  padding-top: 5%;
+  padding-bottom: 15%;
+}
+
+.rating {
+  height: 10%;
+  line-height: 40px;
+}
+
+.star-reg {
+  height: 25px;
+}
+
+.star-sm {
+  height: 15px;
+}
+
+.star-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.star-list-item {
+  display: inline;
+  margin: 0 2px;
 }
